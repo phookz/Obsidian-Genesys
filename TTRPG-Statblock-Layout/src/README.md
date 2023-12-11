@@ -69,3 +69,5 @@ equipment:
     desc: "Utility belt, Extra reloads, Stormtrooper armor, 2 frag grenades"
 ```
 ````
+
+<a href="./TTRPG-Statblock-Layout/examples/Statblock-Alt_RenderExample.png"><img src="./TTRPG-Statblock-Layout/examples/Statblock-Alt_RenderExample.png"></a>
