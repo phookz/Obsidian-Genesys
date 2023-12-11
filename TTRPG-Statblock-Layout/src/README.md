@@ -70,4 +70,4 @@ equipment:
 ```
 ````
 
-<a href="./TTRPG-Statblock-Layout/examples/Statblock-Alt_RenderExample.png"><img src="./TTRPG-Statblock-Layout/examples/Statblock-Alt_RenderExample.png"></a>
+<img src="../examples/Statblock-Alt_RenderExample.png">
