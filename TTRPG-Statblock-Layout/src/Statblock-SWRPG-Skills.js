@@ -3,12 +3,12 @@ let abilityDiceTag = "#Ability"
 let proficiencyDiceTag = "#Proficiency";
 
 const characteristics = {
-    Brawn       : { name: "Brawn",      stat: monster.stats[0], abbrev: "BRA" },
-    Agility     : { name: "Agility",    stat: monster.stats[1], abbrev: "AGI" },
-    Intellect   : { name: "Intellect",  stat: monster.stats[2], abbrev: "INT" },
-    Cunning     : { name: "Cunning",    stat: monster.stats[3], abbrev: "CUN" },
-    Willpower   : { name: "WillPower",  stat: monster.stats[4], abbrev: "WIL" },
-    Presence    : { name: "Presence",   stat: monster.stats[5], abbrev: "PRE" },
+    Bra : { name: "Brawn",      stat: monster.stats[0], abbrev: "Br" },
+    Agi : { name: "Agility",    stat: monster.stats[1], abbrev: "Ag" },
+    Int : { name: "Intellect",  stat: monster.stats[2], abbrev: "In" },
+    Cun : { name: "Cunning",    stat: monster.stats[3], abbrev: "Cu" },
+    Wil : { name: "Willpower",  stat: monster.stats[4], abbrev: "Wi" },
+    Pre : { name: "Presence",   stat: monster.stats[5], abbrev: "Pr" },
 };
 
 /**
@@ -24,42 +24,48 @@ const characteristics = {
  * Skill names can be adjusted for your install, I have each skill with its own page so the links allow easy reference.
  */
 const skills = {
-    "astrogation"       : { name: "[[Astrogation]]",            characteristic : characteristics.Intellect, },       
-    "athletics"         : { name: "[[Athletics]]",              characteristic : characteristics.Brawn, },
-    "brawl"             : { name: "[[Brawl]]",                  characteristic : characteristics.Brawn, },
-    "charm"             : { name: "[[Charm]]",                  characteristic : characteristics.Presence, },
-    "coercion"          : { name: "[[Coercion]]",               characteristic : characteristics.Willpower, },
-    "computers"         : { name: "[[Computers]]",              characteristic : characteristics.Intellect, },
-    "cool"              : { name: "[[Cool]]",                   characteristic : characteristics.Presence, },
-    "coordination"      : { name: "[[Coordination]]",           characteristic : characteristics.Agility, },
-    "coreworlds"        : { name: "[[Core Worlds]]",            characteristic : characteristics.Intellect, },
-    "cybernetics"       : { name: "[[Cybernetics]]",            characteristic : characteristics.Intellect, },  
-    "deception"         : { name: "[[Deception]]",              characteristic : characteristics.Cunning, },
-    "discipline"        : { name: "[[Discipline]]",             characteristic : characteristics.Willpower, },
-    "education"         : { name: "[[Education]]",              characteristic : characteristics.Intellect, },
-    "gunnery"           : { name: "[[Gunnery]]",                characteristic : characteristics.Agility, },
-    "leadership"        : { name: "[[Leadership]]",             characteristic : characteristics.Presence, },
-    "lightsaber"        : { name: "[[Lightsaber]]",             characteristic : characteristics.Brawn, },
-    "lore"              : { name: "[[Lore]]",                   characteristic : characteristics.Intellect, },
-    "mechanics"         : { name: "[[Mechanics]]",              characteristic : characteristics.Intellect, },
-    "medicine"          : { name: "[[Medicine]]",               characteristic : characteristics.Intellect, },
-    "melee"             : { name: "[[Melee]]",                  characteristic : characteristics.Brawn, },
-    "negotiation"       : { name: "[[Negotiation]]",            characteristic : characteristics.Presence, },
-    "outerrim"          : { name: "[[Outer Rim]]",              characteristic : characteristics.Intellect, },
-    "perception"        : { name: "[[Perception]]",             characteristic : characteristics.Cunning, },
-    "pilotingplanetary" : { name: "[[Piloting (Planetary)]]",   characteristic : characteristics.Agility, },
-    "pilotingspace"     : { name: "[[Piloting (Space)]]",       characteristic : characteristics.Agility, },
-    "rangedheavy"       : { name: "[[Ranged (Heavy)]]",         characteristic : characteristics.Agility, },
-    "rangedlight"       : { name: "[[Ranged (Light)]]",         characteristic : characteristics.Agility, },
-    "resilience"        : { name: "[[Resilience]]",             characteristic : characteristics.Brawn, },
-    "skulduggery"       : { name: "[[Skulduggery]]",            characteristic : characteristics.Cunning, },
-    "stealth"           : { name: "[[Stealth]]",                characteristic : characteristics.Agility, },
-    "streetwise"        : { name: "[[Streetwise]]",             characteristic : characteristics.Cunning, },
-    "survival"          : { name: "[[Survival]]",               characteristic : characteristics.Cunning, },
-    "underworld"        : { name: "[[Underworld]]",             characteristic : characteristics.Intellect, },
-    "vigilance"         : { name: "[[Vigilance]]",              characteristic : characteristics.Willpower, },
-    "warfare"           : { name: "[[Warfare]]",                characteristic : characteristics.Intellect, },
-    "xenology"          : { name: "[[Xenology]]",               characteristic : characteristics.Intellect, },
+    "astrogation"       : { name: "Astrogation",            characteristic : characteristics.Int, },       
+    "athletics"         : { name: "Athletics",              characteristic : characteristics.Bra, },
+    "brawl"             : { name: "Brawl",                  characteristic : characteristics.Bra, },
+    "charm"             : { name: "Charm",                  characteristic : characteristics.Pre, },
+    "coercion"          : { name: "Coercion",               characteristic : characteristics.Wil, },
+    "computers"         : { name: "Computers",              characteristic : characteristics.Int, },
+    "cool"              : { name: "Cool",                   characteristic : characteristics.Pre, },
+    "coordination"      : { name: "Coordination",           characteristic : characteristics.Agi, },
+    "coreworlds"        : { name: "Core Worlds",            characteristic : characteristics.Int, },
+    "cybernetics"       : { name: "Cybernetics",            characteristic : characteristics.Int, },  
+    "deception"         : { name: "Deception",              characteristic : characteristics.Cun, },
+    "discipline"        : { name: "Discipline",             characteristic : characteristics.Wil, },
+    "education"         : { name: "Education",              characteristic : characteristics.Int, },
+    "gunnery"           : { name: "Gunnery",                characteristic : characteristics.Agi, },
+    "leadership"        : { name: "Leadership",             characteristic : characteristics.Pre, },
+    "lightsaber"        : { name: "Lightsaber",             characteristic : characteristics.Bra, },
+    "lightsaber-agi"    : { name: "Lightsaber",             characteristic : characteristics.Agi, },
+    "lightsaber-bra"    : { name: "Lightsaber",             characteristic : characteristics.Bra, },
+    "lightsaber-cun"    : { name: "Lightsaber",             characteristic : characteristics.Cun, },
+    "lightsaber-int"    : { name: "Lightsaber",             characteristic : characteristics.Int, },
+    "lightsaber-pre"    : { name: "Lightsaber",             characteristic : characteristics.Pre, },
+    "lightsaber-wil"    : { name: "Lightsaber",             characteristic : characteristics.Wil, },
+    "lore"              : { name: "Lore",                   characteristic : characteristics.Int, },
+    "mechanics"         : { name: "Mechanics",              characteristic : characteristics.Int, },
+    "medicine"          : { name: "Medicine",               characteristic : characteristics.Int, },
+    "melee"             : { name: "Melee",                  characteristic : characteristics.Bra, },
+    "negotiation"       : { name: "Negotiation",            characteristic : characteristics.Pre, },
+    "outerrim"          : { name: "Outer Rim",              characteristic : characteristics.Int, },
+    "perception"        : { name: "Perception",             characteristic : characteristics.Cun, },
+    "pilotingplanetary" : { name: "Piloting (Planetary)",   characteristic : characteristics.Agi, },
+    "pilotingspace"     : { name: "Piloting (Space)",       characteristic : characteristics.Agi, },
+    "rangedheavy"       : { name: "Ranged (Heavy)",         characteristic : characteristics.Agi, },
+    "rangedlight"       : { name: "Ranged (Light)",         characteristic : characteristics.Agi, },
+    "resilience"        : { name: "Resilience",             characteristic : characteristics.Bra, },
+    "skulduggery"       : { name: "Skulduggery",            characteristic : characteristics.Cun, },
+    "stealth"           : { name: "Stealth",                characteristic : characteristics.Agi, },
+    "streetwise"        : { name: "Streetwise",             characteristic : characteristics.Cun, },
+    "survival"          : { name: "Survival",               characteristic : characteristics.Cun, },
+    "underworld"        : { name: "Underworld",             characteristic : characteristics.Int, },
+    "vigilance"         : { name: "Vigilance",              characteristic : characteristics.Wil, },
+    "warfare"           : { name: "Warfare",                characteristic : characteristics.Int, },
+    "xenology"          : { name: "Xenology",               characteristic : characteristics.Int, },
 };
 
 
@@ -109,7 +115,7 @@ if (monster.skills !== undefined && monster.skills.length != 0) {
         // build the dice pool
         let dicePool = proficiencyDiceTag.repeat(element.proficiency) + abilityDiceTag.repeat(element.ability);
         // rendered output
-        output += `<strong>${element.label}</strong>: ${rankString} ( ${dicePool} )<br>`;
+        output += `<strong>[[${element.label}|${element.label}]]</strong> (${element.charAbbrev}): ${rankString} ${dicePool}<br>`;
     });
 }
 
@@ -168,6 +174,7 @@ function getSkillData(skillEntry) {
     }
 
     // now look up the skill so we can get the characteristic
+    
     let skill = skills[result.key.toLowerCase()];
     if (skill) {
         result.label = skill.name;
