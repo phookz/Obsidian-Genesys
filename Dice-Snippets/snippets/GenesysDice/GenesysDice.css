@@ -8,7 +8,7 @@ body a.tag.tag[href^="#GenesysAbility"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -30,7 +30,7 @@ body a.tag.tag[href^="#GenesysBoost"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -52,7 +52,7 @@ body a.tag.tag[href^="#GenesysChallenge"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -74,7 +74,7 @@ body a.tag.tag[href^="#GenesysDifficulty"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -96,7 +96,7 @@ body a.tag.tag[href^="#GenesysProficiency"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -118,7 +118,7 @@ body a.tag.tag[href^="#GenesysSetback"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -140,7 +140,7 @@ body a.tag.tag[href^="#GenesysAdvantage"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -162,7 +162,7 @@ body a.tag.tag[href^="#GenesysDespair"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -184,7 +184,7 @@ body a.tag.tag[href^="#GenesysFailure"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -206,7 +206,7 @@ body a.tag.tag[href^="#GenesysSuccess"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -228,7 +228,7 @@ body a.tag.tag[href^="#GenesysThreat"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -250,7 +250,7 @@ body a.tag.tag[href^="#GenesysTriumph"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -272,7 +272,7 @@ body a.tag.tag[href^="#GenesysForce"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -294,7 +294,7 @@ body a.tag.tag[href^="#GenesysLightSide"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -316,7 +316,7 @@ body a.tag.tag[href^="#GenesysDarkSide"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -338,7 +338,7 @@ body a.tag.tag[href^="#GenesysLightDark"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -349,6 +349,94 @@ body a.tag.tag[href^="#GenesysLightDark"],
 }
 
 .is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagGenesysLightDark {
+  display: none;
+}
+
+body a.tag.tag[href^="#GenesysDI2"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysDI2:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagGenesysDI2 {
+  display: none;
+}
+
+body a.tag.tag[href^="#GenesysDI3"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysDI3:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagGenesysDI3 {
+  display: none;
+}
+
+body a.tag.tag[href^="#GenesysDI4"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysDI4:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagGenesysDI4 {
+  display: none;
+}
+
+body a.tag.tag[href^="#GenesysDI5"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysDI5:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagGenesysDI5 {
   display: none;
 }
 
@@ -462,6 +550,22 @@ body .is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysSetback:not(.cm-fo
 }
 
 .is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysLightDark {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysDI2 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysDI3 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysDI4 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysDI5 {
   display: none;
 }
 

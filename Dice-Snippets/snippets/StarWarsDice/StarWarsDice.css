@@ -8,7 +8,7 @@ body a.tag.tag[href^="#StarWarsAbility"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -30,7 +30,7 @@ body a.tag.tag[href^="#StarWarsBoost"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -52,7 +52,7 @@ body a.tag.tag[href^="#StarWarsChallenge"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -74,7 +74,7 @@ body a.tag.tag[href^="#StarWarsDifficulty"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -96,7 +96,7 @@ body a.tag.tag[href^="#StarWarsProficiency"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -118,7 +118,7 @@ body a.tag.tag[href^="#StarWarsSetback"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -140,7 +140,7 @@ body a.tag.tag[href^="#StarWarsAdvantage"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -162,7 +162,7 @@ body a.tag.tag[href^="#StarWarsDespair"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -184,7 +184,7 @@ body a.tag.tag[href^="#StarWarsFailure"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -206,7 +206,7 @@ body a.tag.tag[href^="#StarWarsSuccess"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -228,7 +228,7 @@ body a.tag.tag[href^="#StarWarsThreat"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -250,7 +250,7 @@ body a.tag.tag[href^="#StarWarsTriumph"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -272,7 +272,7 @@ body a.tag.tag[href^="#StarWarsForce"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -294,7 +294,7 @@ body a.tag.tag[href^="#StarWarsLightSide"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -316,7 +316,7 @@ body a.tag.tag[href^="#StarWarsDarkSide"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -338,7 +338,7 @@ body a.tag.tag[href^="#StarWarsLightDark"],
   top: 0.175em;
   position: relative;
   height: 1em;
-  width: 1em;
+  width: auto; /* was 1em, but I think auto will work */
   border: 0;
   /* Added to try and deal with themes */
   background-color: transparent;
@@ -349,6 +349,94 @@ body a.tag.tag[href^="#StarWarsLightDark"],
 }
 
 .is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagStarWarsLightDark {
+  display: none;
+}
+
+body a.tag.tag[href^="#StarWarsDI2"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsDI2:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagStarWarsDI2 {
+  display: none;
+}
+
+body a.tag.tag[href^="#StarWarsDI3"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsDI3:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagStarWarsDI3 {
+  display: none;
+}
+
+body a.tag.tag[href^="#StarWarsDI4"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsDI4:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagStarWarsDI4 {
+  display: none;
+}
+
+body a.tag.tag[href^="#StarWarsDI5"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsDI5:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagStarWarsDI5 {
   display: none;
 }
 
@@ -462,6 +550,22 @@ body .is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsSetback:not(.cm-f
 }
 
 .is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsLightDark {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsDI2 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsDI3 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsDI4 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsDI5 {
   display: none;
 }
 

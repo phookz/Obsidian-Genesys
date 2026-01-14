@@ -10,7 +10,7 @@
             top: .175em;
             position: relative;
             height: 1em;
-            width: 1em;
+            width: auto; /* was 1em, but I think auto will work */
             border: 0;
             /* Added to try and deal with themes */
             background-color: transparent;
