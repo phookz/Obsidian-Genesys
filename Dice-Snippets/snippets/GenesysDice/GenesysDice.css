@@ -1,3 +1,4 @@
+/** removed because they work better not being inverted: , LightSide, DarkSide, LightDark; **/
 /** formatting stuff for Genesys **/
 body a.tag.tag[href^="#GenesysAbility"],
 .is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysAbility:not(.cm-formatting) {
@@ -390,21 +391,6 @@ settings:
 
 .theme-dark:not(.do-not-invert-symbols-Genesys) a.tag.tag[href^="#GenesysTriumph"],
 .theme-dark:not(.do-not-invert-symbols-Genesys) .is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysTriumph:not(.cm-formatting) {
-  filter: invert(1);
-}
-
-.theme-dark:not(.do-not-invert-symbols-Genesys) a.tag.tag[href^="#GenesysLightSide"],
-.theme-dark:not(.do-not-invert-symbols-Genesys) .is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysLightSide:not(.cm-formatting) {
-  filter: invert(1);
-}
-
-.theme-dark:not(.do-not-invert-symbols-Genesys) a.tag.tag[href^="#GenesysDarkSide"],
-.theme-dark:not(.do-not-invert-symbols-Genesys) .is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysDarkSide:not(.cm-formatting) {
-  filter: invert(1);
-}
-
-.theme-dark:not(.do-not-invert-symbols-Genesys) a.tag.tag[href^="#GenesysLightDark"],
-.theme-dark:not(.do-not-invert-symbols-Genesys) .is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysLightDark:not(.cm-formatting) {
   filter: invert(1);
 }
 

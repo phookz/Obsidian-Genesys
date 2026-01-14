@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg width="110" height="115" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
+ <g class="layer" display="inline">
+  <title>Layer 1</title>
+  <g id="svg_3" transform="translate(0.0864304 0) translate(-0.0864304 0) translate(-0.0864304 0) translate(-0.0864304 0) translate(0.0864304 0) translate(0.0864304 0) translate(-0.0864304 0) translate(0.0864304 0) translate(0.0864304 0) translate(0.0864304 0) translate(0.0864304 0) translate(0.0864304 0) translate(0.0864304 0) translate(0.0864304 0) translate(0.0864304 0) matrix(1.05024 0 0 1.05024 -12.3428 -7.39767)">
+   <g id="svg_12" transform="matrix(0.92113 0 0 0.92113 12.8232 7.11949)">
+    <path d="m55,2.5c-30.38,0 -55,24.62 -55,55c0,30.38 24.62,55 55,55c30.38,0 55,-24.62 55,-55c0,-30.38 -24.62,-55 -55,-55zm0.13,10.89c24.3,0 43.87,19.81 43.87,44.11c0,24.3 -19.7,44 -44,44c-0.03,-0.09 0.3,-88.11 0.13,-88.11z" fill="#ffffff" id="svg_8"/>
+    <g id="Layer_2">
+     <path d="m55,112.5c30.38,0 55,-24.62 55,-55c0,-30.38 -24.62,-55 -55,-55c-30.38,0 -55,24.62 -55,55c0,30.38 24.62,55 55,55zm-0.13,-10.89c-24.3,0 -43.87,-19.81 -43.87,-44.11c0,-24.3 19.7,-44 44,-44c0.03,0.09 -0.3,88.11 -0.13,88.11z" fill="#000000" id="svg_1"/>
+    </g>
+   </g>
+   <circle cx="-433.58" cy="-241.74" fill="#000000" fill-opacity="0" id="svg_11" r="50" stroke="#ffffff" stroke-width="6" transform="matrix(0.985729 0 0 0.985729 490.88 298.376)"/>
+  </g>
+ </g>
+</svg>
