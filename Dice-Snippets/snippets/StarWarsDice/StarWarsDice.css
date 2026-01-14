@@ -12,7 +12,7 @@ body a.tag.tag[href^="#StarWarsAbility"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -34,7 +34,7 @@ body a.tag.tag[href^="#StarWarsBoost"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -56,7 +56,7 @@ body a.tag.tag[href^="#StarWarsChallenge"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -78,7 +78,7 @@ body a.tag.tag[href^="#StarWarsDifficulty"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -100,7 +100,7 @@ body a.tag.tag[href^="#StarWarsProficiency"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -122,7 +122,7 @@ body a.tag.tag[href^="#StarWarsSetback"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -144,7 +144,7 @@ body a.tag.tag[href^="#StarWarsAdvantage"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -166,7 +166,7 @@ body a.tag.tag[href^="#StarWarsDespair"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -188,7 +188,7 @@ body a.tag.tag[href^="#StarWarsFailure"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -210,7 +210,7 @@ body a.tag.tag[href^="#StarWarsSuccess"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -232,7 +232,7 @@ body a.tag.tag[href^="#StarWarsThreat"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -254,7 +254,7 @@ body a.tag.tag[href^="#StarWarsTriumph"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -276,7 +276,7 @@ body a.tag.tag[href^="#StarWarsForce"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -298,7 +298,7 @@ body a.tag.tag[href^="#StarWarsLightSide"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -320,7 +320,7 @@ body a.tag.tag[href^="#StarWarsDarkSide"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
@@ -342,7 +342,7 @@ body a.tag.tag[href^="#StarWarsLightDark"],
   /* Added to try and deal with themes */
   background-color: transparent;
   font-size: var(--editor-font-size);
-  padding: 1px;
+  padding: 0px;
   border-radius: 0;
   vertical-align: baseline;
 }
