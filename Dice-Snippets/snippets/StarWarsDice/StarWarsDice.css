@@ -440,6 +440,94 @@ body a.tag.tag[href^="#StarWarsDI5"],
   display: none;
 }
 
+body a.tag.tag[href^="#StarWarsAB2"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsAB2:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagStarWarsAB2 {
+  display: none;
+}
+
+body a.tag.tag[href^="#StarWarsAB3"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsAB3:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagStarWarsAB3 {
+  display: none;
+}
+
+body a.tag.tag[href^="#StarWarsAB4"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsAB4:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagStarWarsAB4 {
+  display: none;
+}
+
+body a.tag.tag[href^="#StarWarsAB5"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsAB5:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagStarWarsAB5 {
+  display: none;
+}
+
 /* Style Settings comment for use with the Style Settings Community Plugin */
 /* @settings
 name: StarWars Dice CSS Snippet
@@ -566,6 +654,22 @@ body .is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsSetback:not(.cm-f
 }
 
 .is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsDI5 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsAB2 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsAB3 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsAB4 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-StarWarsAB5 {
   display: none;
 }
 

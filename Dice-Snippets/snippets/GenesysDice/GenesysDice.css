@@ -440,6 +440,94 @@ body a.tag.tag[href^="#GenesysDI5"],
   display: none;
 }
 
+body a.tag.tag[href^="#GenesysAB2"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysAB2:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagGenesysAB2 {
+  display: none;
+}
+
+body a.tag.tag[href^="#GenesysAB3"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysAB3:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagGenesysAB3 {
+  display: none;
+}
+
+body a.tag.tag[href^="#GenesysAB4"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysAB4:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagGenesysAB4 {
+  display: none;
+}
+
+body a.tag.tag[href^="#GenesysAB5"],
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysAB5:not(.cm-formatting) {
+  /* Taken from original CSS */
+  display: inline-flex;
+  align-self: center;
+  top: 0.175em;
+  position: relative;
+  height: 1em;
+  width: auto; /* was 1em, but I think auto will work */
+  border: 0;
+  /* Added to try and deal with themes */
+  background-color: transparent;
+  font-size: var(--editor-font-size);
+  padding: 0px;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tagGenesysAB5 {
+  display: none;
+}
+
 /* Style Settings comment for use with the Style Settings Community Plugin */
 /* @settings
 name: Genesys Dice CSS Snippet
@@ -566,6 +654,22 @@ body .is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysSetback:not(.cm-fo
 }
 
 .is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysDI5 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysAB2 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysAB3 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysAB4 {
+  display: none;
+}
+
+.is-live-preview .cm-line:not(.cm-active) .cm-tag-GenesysAB5 {
   display: none;
 }
 
