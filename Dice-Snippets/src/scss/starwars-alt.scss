@@ -22,12 +22,12 @@ settings:
         type: class-toggle
 		default: false
 */
-
+$game: ""; 
 /* --------------------------------------------------------------------------
    Dice & symbol tag rendering
    -------------------------------------------------------------------------- */
 @each $name, $svg in assets.$dice-symbols {
-  @include dice.dice-tag($name, $svg);
+  @include dice.dice-tag($game+$name, $svg);
 }
 
 /* --------------------------------------------------------------------------
@@ -35,10 +35,10 @@ settings:
    -------------------------------------------------------------------------- */
 
 @include dice.dice-dark-invert(
-  Advantage,
-  Despair,
-  Failure,
-  Success,
-  Threat,
-  Triumph
+  $game+Advantage,
+  $game+Despair,
+  $game+Failure,
+  $game+Success,
+  $game+Threat,
+  $game+Triumph
 );
