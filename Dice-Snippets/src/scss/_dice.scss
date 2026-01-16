@@ -1,0 +1,42 @@
+// _dice.scss
+
+@mixin dice-tag-base {
+  display: inline-flex;
+  align-self: center;
+  position: relative;
+  top: 0.175em;
+
+  height: 1em;
+  width: auto;
+
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  background-color: transparent;
+
+  font-size: var(--editor-font-size);
+  vertical-align: baseline;
+}
+
+@mixin dice-tag($name, $svg) {
+  body a.tag.tag[href^="##{$name}"],
+  .is-live-preview .cm-line:not(.cm-active) .cm-tag-#{$name}:not(.cm-formatting) {
+    @include dice-tag-base;
+    content: url(#{$svg});
+  }
+
+  .is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tag#{$name} {
+    display: none;
+  }
+}
+
+@mixin dice-dark-invert($names...) {
+  .theme-dark:not(.do-not-invert-symbols-) {
+    @each $name in $names {
+      body a.tag.tag[href^="##{$name}"],
+      .is-live-preview .cm-line:not(.cm-active) .cm-tag-#{$name}:not(.cm-formatting) {
+        filter: invert(1);
+      }
+    }
+  }
+}
