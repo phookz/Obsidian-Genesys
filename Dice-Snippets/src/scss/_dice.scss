@@ -33,7 +33,7 @@
 @mixin dice-dark-invert($names...) {
   .theme-dark:not(.do-not-invert-symbols-) {
     @each $name in $names {
-      body a.tag.tag[href^="##{$name}"],
+      a.tag.tag[href^="##{$name}"],
       .is-live-preview .cm-line:not(.cm-active) .cm-tag-#{$name}:not(.cm-formatting) {
         filter: invert(1);
       }

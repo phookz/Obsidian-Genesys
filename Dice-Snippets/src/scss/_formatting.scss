@@ -1,4 +1,6 @@
+@use './assets' as foox;
 @use './variables.scss';
+
 
 @mixin formatting($game) {
     @each $dors in variables.$diceandsymbols {
@@ -24,16 +26,7 @@
         }
     }
 }
-@mixin darkthemefixes($game) {
-    @each $symbol in variables.$symbols {
-        .theme-dark:not(.do-not-invert-symbols-#{$game}) {
-            a.tag.tag[href^="##{$game}#{$symbol}"],
-            .is-live-preview .cm-line:not(.cm-active) .cm-tag-#{$game}#{$symbol}:not(.cm-formatting) {
-                filter: invert(1);
-            }
-        }
-    }
-}
+
  
 // _dice.scss
 @mixin dice-tag-base {
