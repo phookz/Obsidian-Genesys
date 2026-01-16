@@ -1,11 +1,6 @@
 /* ==========================================================================
-   Star Wars Dice & Symbols — Entry Point
+   Dice & Symbols — Entry Point
    ========================================================================== */
-
-/* Core shared styles */
-@use "./variables" as variables;
-@use "./formatting" as formatting;
-
 /* Dice system */
 @use "./assets" as assets;
 @use "./dice" as dice;
