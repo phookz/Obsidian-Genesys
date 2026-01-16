@@ -23,10 +23,12 @@ settings:
 		default: false
 */
 $game: "Genesys"; 
+$symbols: assets.$genesys-symbols;
+
 /* --------------------------------------------------------------------------
    Dice & symbol tag rendering
    -------------------------------------------------------------------------- */
-@each $name, $svg in assets.$genesys-symbols {
+@each $name, $svg in $symbols {
   @include dice.dice-tag($game+$name, $svg);
 }
 
