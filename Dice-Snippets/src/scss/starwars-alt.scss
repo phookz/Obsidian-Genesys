@@ -1,41 +1,23 @@
 /* ==========================================================================
-   Star Wars Dice & Symbols — Entry Point
+   Star Wars Dice & Symbols (Alt) — Entry Point
    ========================================================================== */
-/* Dice system */
 @use "./assets" as assets;
-@use "./dice" as dice;
+@use "./system" as system;
 
-/* Style Settings comment for use with the Style Settings Community Plugin */
 /* @settings
-name: StarWars Dice CSS Snippet
-id: craftidore-star-wars-dice-snippet
+name: StarWars Dice CSS Snippet (Alt)
+id: craftidore-star-wars-dice-snippet-alt
 settings:
-    - 
+    -
         id: do-not-invert-symbols-StarWars
         title: "Don't Invert Symbols"
-		description: Don't invert the color of the symbols while in dark theme. 
+        description: Don't invert the color of the symbols while in dark theme.
         type: class-toggle
-		default: false
+        default: false
 */
-$game: ""; 
-$symbols: assets.$starwars-symbols;
 
-/* --------------------------------------------------------------------------
-   Dice & symbol tag rendering
-   -------------------------------------------------------------------------- */
-@each $name, $svg in $symbols {
-  @include dice.dice-tag($game+$name, $svg);
-}
-
-/* --------------------------------------------------------------------------
-   Dark theme inversion for light-colored symbols
-   -------------------------------------------------------------------------- */
-
-@include dice.dice-dark-invert(
-  $game+Advantage,
-  $game+Despair,
-  $game+Failure,
-  $game+Success,
-  $game+Threat,
-  $game+Triumph
+@include system.dice-system(
+  "",
+  assets.$starwars-symbols
 );
+

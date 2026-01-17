@@ -25,6 +25,7 @@
     content: url(#{$svg});
   }
 
+  // Hide raw #Tag text when glyph is rendered
   .is-live-preview .cm-line:not(.cm-active) .cm-formatting.cm-tag#{$name} {
     display: none;
   }

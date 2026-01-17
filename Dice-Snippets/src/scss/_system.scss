@@ -1,0 +1,22 @@
+// _system.scss
+@use "./dice" as dice;
+
+/* --------------------------------------------------------------------------
+   Render a complete dice system
+   -------------------------------------------------------------------------- */
+@mixin dice-system($prefix, $symbols) {
+  /* Dice & symbol tag rendering */
+  @each $name, $svg in $symbols {
+    @include dice.dice-tag($prefix + $name, $svg);
+  }
+
+  /* Dark theme inversion for light-colored symbols */
+  @include dice.dice-dark-invert(
+    $prefix + Advantage,
+    $prefix + Despair,
+    $prefix + Failure,
+    $prefix + Success,
+    $prefix + Threat,
+    $prefix + Triumph
+  );
+}
